@@ -1,7 +1,7 @@
 
 import './App.css'
 import NavBar from './components/NavBar/NavBar'
-import DaisyNav from './components/DaisyNav/DaisyNav'
+// import DaisyNav from './components/DaisyNav/DaisyNav'
 
 
 function App() {
@@ -9,10 +9,10 @@ function App() {
   return (
     <>
       <NavBar></NavBar>
-      <DaisyNav></DaisyNav>
-      <h1 className='text-3xl font-bold text-center text-rose-600'>Hero Section</h1>
+      {/* <DaisyNav></DaisyNav> */}
+      <h1 className='text-3xl font-bold text-center text-rose-600 mt-24'>Hero Section</h1>
 
-      <div className="hero min-h-screen bg-base-200">
+      {/* <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left">
             <h1 className="text-5xl font-bold">Login now!</h1>
@@ -41,7 +41,7 @@ function App() {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   )
 }
