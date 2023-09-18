@@ -1,5 +1,6 @@
 
 import './App.css'
+import LineChart from './components/LineChart/LineChart'
 import NavBar from './components/NavBar/NavBar'
 import PriceOptions from './components/PriceOptions/PriceOptions'
 // import DaisyNav from './components/DaisyNav/DaisyNav'
@@ -12,8 +13,10 @@ function App() {
       <NavBar></NavBar>
       {/* <DaisyNav></DaisyNav> */}
       {/* <h1 className='text-3xl font-bold text-center text-rose-600 mt-24'>Hero Section</h1> */}
-
+      
       <PriceOptions></PriceOptions>
+
+      <LineChart></LineChart>
       {/* <div className="hero min-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <div className="text-center lg:text-left">
@@ -44,6 +47,7 @@ function App() {
           </div>
         </div>
       </div> */}
+      
     </>
   )
 }
